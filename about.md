@@ -1,9 +1,12 @@
 ---
 layout: page
-title: About
+title: 안녕하세요. 김성빈입니다.
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+### "군 복무 중 접어뒀던 공부 다시 시작"
 
-email: agus[at]python.web.id
+#### " 안녕하세요. 누구에게 인정받는 전문가가 되고 싶은 김성빈입니다."
+
+살면서 더 
+
