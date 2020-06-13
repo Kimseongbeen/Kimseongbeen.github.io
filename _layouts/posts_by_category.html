@@ -36,7 +36,7 @@ layout: default
           <div class="list-group">
         {% endif %}
       {% endif %}
-        <ul class="posts">
+       <ul style="margin:0px" class="posts">
           <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
         </ul>
       {% if forloop.last %}
