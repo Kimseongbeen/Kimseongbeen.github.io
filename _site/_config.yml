@@ -1,10 +1,11 @@
-title: Stack Problems
+title: 나 키우기
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+author: Kimseongbeen
+github: https://github.com/kimseongbeen
+about: 안녕하세요. 저는 훌륭한 개발자가  되고싶은 사람입니다. 꾸준히 배워나갈 생각입니다. 포트폴리오[https://]
+disqus_shortname: https-Kimseongbeen-github-io
 google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/cat.png
 
 enableTags: true
 tagarray: []
@@ -15,16 +16,16 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+   # - icon: fa-facebook
+   #   link: ""
+   # - icon: fa-twitter
+   #   link: "#"
+   # - icon: fa-linkedin
+   #   link: "#"
+   # - icon: fa-stack-exchange
+   #   link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/kimseongbeen"
 
 share:
   twitter_username: github.io
@@ -33,13 +34,13 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
+   # - text: My Projects
+   #  url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
-baseurl: ""
+url: "https://kimseongbeen.github.io"
+baseurl:
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
