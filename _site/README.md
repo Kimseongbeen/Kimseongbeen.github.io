@@ -78,3 +78,9 @@ jekyll serve
 ### Contributing
 
 Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+
+<img src="https://i.imgur.com/wzppkHk.png" title="console.assert.png"/>
+<img src="https://i.imgur.com/zCv6CRe.png" title="console.table.png"/>
+<img src="https://i.imgur.com/YoyDM3X.png" title="console.time.png"/>
+<img src="https://i.imgur.com/gvzpmcq.png" title="console-CSS.png"/>
+<img src="https://i.imgur.com/NnhyRGQ.png" title="consolegroup.png"/>
