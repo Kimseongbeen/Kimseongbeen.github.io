@@ -8,7 +8,7 @@
 
 #### Features
 
-* Sitemap and XML Feed
+* Sitemap and XML Feed 
 * Pagination in homepage
 * Posts under category
 * Realtime Search Posts _(title & description)_ by query.
