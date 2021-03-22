@@ -1,0 +1,47 @@
+---
+layout: post
+title:  " 3Dprinter 01. 출발"
+discription: " 3d프린터"
+date:   2021-03-22 18:11:00 +0700
+categories: [3DPrinter]
+---
+
+### 노즐 뚫기
+2년전에 막힌 노즐을 그대로 방치하고 있었다가 전역을 하고 때가 된거같아 다시 시작
+https://ifh.cc/g/K4fE8h.jpg
+가열장치를 200도로 설정하고 안에 PLA가 녹을때까지 기다렸다가 노즐을 빼고 안에 녹아있는 PLA를 면봉으로 닦아준다.
+https://ifh.cc/g/i1r9hy.jpg
+
+### MOSFET(고전류차단)
+https://ifh.cc/g/rOBkRI.jpg
+
+현재 기본적인 anet a8의 파워가 불안정해서 파워를 안정화시키는 전원모듈을 설치
+히팅베드와 파워의 공급을 안정화시켜준다.
+https://ifh.cc/g/38M1MZ.jpg
+
+### 플라스틱 베어링
+https://ifh.cc/g/vusd4C.jpg
+가격이 10만원대 프린터인지라 베어링이 좋지 못해서 인터넷으로 구매를했는데 군대에서 멋모르고 산거라 크기가
+안맞아 쓸모없어지게 됐다.
+
+### 오토레벨링 설치    
+https://ifh.cc/g/ipjyUB.jpg
+
+수동레벨링을 했을때에는 2번정도 사용을하고 나면 다시 레벨링을 해줘야하는 번거러움 때문에 사용을 하게 된
+제품이지만, 펌웨어(SkyNet3D)만 깔고 z축 설정을 제대로 못해 노즐이 히팅베드를 누르는 현상이 발생했다
+[추후에 3d프린터와 아두이노를 연결해서 시리얼 통신으로 제어를 통해 해결할 예정]
+
+* skynet3d 설치 방법
+https://github.com/thijsk/Skynet3d 에 접속하고 Skynet을 다운로드
+
+후에 사진에 나와이는 오토레벨링 제품과 같은 제품이라면 경로에 나타난 헤더파일을 복사
+https://ifh.cc/g/loIsN7.jpg
+
+상위 폴더로 나온다음 복사한것을 덮어쓰기
+https://ifh.cc/g/hT1808.jpg
+
+프린터와 컴퓨터를 연결을 하고 아두이노를 실행 후 보드와 포트를 맞춰주고
+https://ifh.cc/g/mZKRku.png
+ino파일을 열어 업로드를 하면 펌웨어 설치는 완료 
+https://ifh.cc/g/MwxHdf.jpg
+https://ifh.cc/g/t4ebtv.jpg
