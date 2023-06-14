@@ -1,3 +1,4 @@
+#페이지 왼족
 title: 개발
 description: My Personal Stack Problems
 author: Kimseongbeen
@@ -34,8 +35,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-   # - text: My Projects
-   #  url: /projects/
+   - text: My Projects
+    url: /projects/
    # - text: XML Feed
    #   url: /feed.xml
 

@@ -110,7 +110,7 @@ layout: compress
       </script>
     {% endif %}
   </head>
-  <body>
+  <body >
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
@@ -130,10 +130,10 @@ layout: compress
           <div class="search" id="js-search">
             <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
             <ul class="search__results" id="js-search__results"></ul>
-          </div>
+           </div>
           <hr />
           <ul class="sidebar-nav">
-            <strong>Navigation</strong>
+            <strong>목록</strong>
             <li><a href="/">Home</a></li>
             {% for i in site.urls %}
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
@@ -157,8 +157,7 @@ layout: compress
       </div>
       <!-- end /.col-sm-8 -->
     </div>
-    <!-- end /.container -->
-
+    
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
